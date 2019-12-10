@@ -20,8 +20,26 @@ public class Pokemon extends Card{
 	}
 	
 	//Tab Listes
-	public String Elements[] = {"grass","fire","water","lighting","psychic","fighting","darkness","metal", "fairy","dragon","colorless","null"};
+	public String Elements[] = {"water","grass","fire","lighting","psychic","fighting","darkness","metal", "fairy","dragon","colorless","null"};
+		
+	//Getteur lifepoints
+	public int getLifePoints() {
+		return lifePoints;
+	}
 	
+	//Getteur firstElement
+	public String getFirstElement() {
+		return firstElement;
+	}
 	
-
+	//Getteur secondElement
+	public String getSecondElement() {
+		return secondElement;
+	}
+	
+	//Getteur stage
+	public int getStage() {
+		return stage;
+	}
+	
 }

@@ -5,9 +5,13 @@ public class PokeGame {
 		// TODO Auto-generated method stub
 		System.out.println("debg");
 		
-		// Test players Poké :
+		// Test players Poke :
 		Players play1 = new Players("Pierre");
-		System.out.println("Player1 : " + play1);
+		System.out.println("Name Player1 : " + play1);
+		
+		// --
+		//Panel Pokewindow
+		Pokewindow pokepanel = new Pokewindow();
 		
 		
 

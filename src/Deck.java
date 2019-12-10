@@ -5,17 +5,17 @@ import java.util.ArrayList;
 public class Deck {
 	
 	// ArrayList card
-	private ArrayList<Card> set = new ArrayList<Card>();
+	private ArrayList<Card> carr = new ArrayList<Card>();
 	
 	
 	// Addcard
 	public void AddCard(Card card) {
-		set.add(card);
+		carr.add(card);
 	}
 	
 	//Getteur
-	public ArrayList<Card> getSet(){
-		return set;
+	public ArrayList<Card> getCarr(){
+		return carr;
 	}
 	
 }

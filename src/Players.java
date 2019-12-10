@@ -9,6 +9,7 @@ public class Players {
 	//Constructeur :
 	public Players(String name) {
 		this.name = name;
+		this.deck = new Deck();
 	}
 	
 	//Getteur name;
